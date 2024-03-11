@@ -15,5 +15,7 @@ public class Hello {
 
         System.out.println("Third Edit of Java Code!!");
 
+        System.out.println("practice done");
+
     }
 }
