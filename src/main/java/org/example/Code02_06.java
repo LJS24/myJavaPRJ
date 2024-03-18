@@ -16,7 +16,7 @@ public class Code02_06 {
         System.out.println(num1 + " + " + num2 + " = " + result);
 
         result = num1 * num2;
-        System.out.println(num1 + " * " + num2 + " = " + result);
+        System.out.println(num1 + " x " + num2 + " = " + result);
 
         result = num1 / num2;
         System.out.println(num1 + " / " + num2 + " = " + result);
