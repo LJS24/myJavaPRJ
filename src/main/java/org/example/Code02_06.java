@@ -5,18 +5,21 @@ Result와 같은 대입연산자가 무조건 왼쪽임을 기억할 것.
  */
 public class Code02_06 {
     public static void main(String[] args) {
-        int num1, num2, result1, result2, result3, result4 ;
-        num1 = 200;
-        num2 = 100;
+        int num1, num2, result;
+        num1 = 100;
+        num2 = 50;
 
-        result1 = num1 + num2;
-        result2 = num1 - num2;
-        result3 = num1 * num2;
-        result4 = num1 / num2;
-        System.out.println(num1 + " + " + num2 + " = " + result1);
-        System.out.println(num1 + " + " + num2 + " = " + result2);
-        System.out.println(num1 + " * " + num2 + " = " + result3);
-        System.out.println(num1 + " / " + num2 + " = " + result4);
+        result = num1 + num2;
+        System.out.println(num1 + " + " + num2 + " = " + result);
+
+        result = num1 - num2;
+        System.out.println(num1 + " + " + num2 + " = " + result);
+
+        result = num1 * num2;
+        System.out.println(num1 + " * " + num2 + " = " + result);
+
+        result = num1 / num2;
+        System.out.println(num1 + " / " + num2 + " = " + result);
 
     }
 }
