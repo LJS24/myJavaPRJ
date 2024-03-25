@@ -5,5 +5,6 @@ public class Code04_09 {
         System.out.println("어떤 글자를 \"강조\"하는 효과1 ");
         System.out.println("어떤 글자를 \'강조\'하는 효과2 ");
         System.out.println("\\\\ 백슬래시 2개 출력 ");
+        /* 기본적으로 다 외워야 한다.*/
     }
 }
