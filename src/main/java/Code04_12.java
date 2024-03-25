@@ -8,6 +8,6 @@ public class Code04_12 {
         var2 = ss.toLowerCase();
         System.out.println(var2);
 
-
+/* 대소문자 변경은 문자열 전체 범위.*/
     }
 }
