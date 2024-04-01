@@ -26,3 +26,4 @@ public class Code05_09 {
     s.close();
     }
 }
+// if else가 편하고 대중적이어서 잘 쓰이지 않는다.//
