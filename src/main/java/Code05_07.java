@@ -5,7 +5,7 @@ public class Code05_07 {
 
         int score;
 
-        System.out.print("정수 입력==> ");
+        System.out.print("점수 입력==> ");
         score = s.nextInt();
 
         if (score>=90) {
