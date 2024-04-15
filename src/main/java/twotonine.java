@@ -1,4 +1,4 @@
-public class Code06_10 {
+public class twotonine {
     public static void main(String[] args) {
 
 
