@@ -1,19 +1,17 @@
-public class Personal_15 {       //class를 정의합니다.
-    public static void main(String[] args){ //main 메서드를 선언합니다. 동작하는 코드의 시작점이 됩니다.
-
-        for(int i=0; i<4; i++){  // i가 초기값 '0' 부터 조건식 '4 미만'을 불만족할 때까지 '1씩 증가한다'는 증감식을 가진 for 문 루프를 생성합니다.
-             for(int j=0; j<4+i; j++){    // j가 초기값 '0' 부터 조건식 '4+i 미만' 을 불만족할 때까지 '1씩 증가한다'는 증감식을 가진 for 문 루프를 생성합니다.
-                 if(j<3-i){                 //안쪽 for 문 안에서, 'j가 3-i보다 작을 때' 라는 조건을 if 문을 이용해 걸어줍니다.
-                     System.out.print(" ");    //조건 만족 시 빈칸을 출력합니다. 불만족시 넘어갑니다.
-                     //코드에 따르면 i는 1씩 커지며, 그렇게 되면 빈칸 출력 조건을 만족하는 범위는 바깥 for 문이 종료될 때까지 1칸씩 줄어드므로
-                     // 첫 줄은 빈칸이 3칸이며 다음 줄부터 1칸씩 줄어들 것입니다.
-                 }
-                 else{                        //if 조건을 만족하지 않을 때의 출력값을 else 를 이용해 설정합니다.
-                     System.out.print("*");     //if 조건을 만족하지 않는 경우 *을 출력합니다. *을 출력하는 범위는 바깥 for문이 종료될 때까지 2씩 증가하므로
-                     //첫 줄은 *이 한 개이며 다음 줄부터 2개씩 증가할 것입니다.
-                 }
+public class Personal_15 {
+    public static void main(String[] args) {
+        for(int i=0; i<5; i++) {
+            for(int j=0; j<5-i; j++) {
+                System.out.print("*");
             }
-             System.out.println();     //println 을 이용해 안쪽 루프가 끝난 뒤마다 줄 바꿈을 해 줍니다.
-        }                             //바깥 for 문 루프를 닫습니다. 이전까지의 내용이 조건에 대한 루프로서 동작하게 됩니다.
+            System.out.println();
+        }
+        for(int i=0; i<4; i++) {
+            for(int j=0; j<i+2; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
+
