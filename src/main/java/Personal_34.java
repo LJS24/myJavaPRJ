@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Personal_34 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+
         int N;
         long M;
 
