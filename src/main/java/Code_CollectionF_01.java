@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class CollectionFramework_01 {
+public class Code_CollectionF_01 {
     public static void main(String[] args){
         List<String> list = new ArrayList<>();
 
@@ -39,7 +39,7 @@ public class CollectionFramework_01 {
 
         System.out.println("1.5세대 반복문");
 
-        Iterator<String> it = list.iterator();
+        Iterator<String> it = list.iterator();    //'반복자'라는 것이다.
 
         while(it.hasNext()){
             String name = it.next();
