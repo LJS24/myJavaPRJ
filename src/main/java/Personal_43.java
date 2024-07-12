@@ -14,7 +14,7 @@ class Child2 extends Parent3 {
     }
 }
 
-public class dohwaji{
+public class Personal_43{
     public static void main(String[] args) {
 
         Parent3 parent = new Parent3();
