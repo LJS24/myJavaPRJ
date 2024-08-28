@@ -1,4 +1,4 @@
-class Solution {
+class Solution18 {
     public int func1(int humidity, int val_set){
         if(humidity < val_set)
             return
